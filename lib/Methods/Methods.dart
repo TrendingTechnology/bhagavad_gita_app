@@ -6,8 +6,8 @@ class Methods {
   static const String baseUrl = "bhagavadgitaapi.in";
 
   static Future<List<GeetaChapters>> getGeetaChapters() async {
-    var url = Uri.parse(
-        'https://bhagavadgitaapi.in/chapters?api_key=5JVtAhaCSsu657T1');
+    var url =
+        Uri.parse('https://bhagavadgitaapi.in/chapters?api_key="your_api_key"');
     try {
       final response = await http.get(
         url,
@@ -25,7 +25,7 @@ class Methods {
 
   static Future<GeetaShloka> getGeetaShloka(int ch, int sk) async {
     var url = Uri.parse(
-        'https://bhagavadgitaapi.in/slok/$ch/$sk?api_key=5JVtAhaCSsu657T1');
+        'https://bhagavadgitaapi.in/slok/$ch/$sk?api_key="your_api_key"');
     try {
       final response = await http.get(url);
       if (200 == response.statusCode) {
