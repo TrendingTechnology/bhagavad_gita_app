@@ -19,7 +19,7 @@ Bhagavad Gita app using flutter & Bhagavad-Gita-API is A lightweight Node.js bas
 - [Flutter](https://flutter.dev/)
 - [Bhagavad-Gita-API](https://github.com/vedicscriptures/bhagavad-gita-api)
 
-[<img src = "https://www.bing.com/th?id=A0068244617ca84ebfa03813209a118ba&w=110&h=110&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM"
+[<img src = "https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png"
 width="300" 
 height="200"/>](https://flutter.dev/)
 
